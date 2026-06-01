@@ -55,9 +55,17 @@ body {
     justify-content: center;
     align-items: center;
 
-    color: white;
     text-align: center;
     padding: 20px;
+}
+
+label {
+    color: white;
+
+}
+
+p {
+    color: white;
 }
 
 header {
