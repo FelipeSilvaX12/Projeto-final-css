@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    background-color: #FAF9F9;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+#nav-principal {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: solid 0.5px rgb(234, 216, 255);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+header {
+    display: flex;
+}
+
+td {
+    color: white;
+}
+
+h1 {
+    font-family: fantasy;
+    padding: 5px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 5px rgb(139, 46, 245);
+    font-size: xx-large;
+    margin-bottom: 30px;
+    color: rgb(19, 1, 1);
+    -webkit-text-stroke: 0.5px white;
+}
+
+
+custom-footer {
+    position: relative;
+    background-color: #ffffff;
+    /* Borda ultra fina com degradê azul neon simetrizando o efeito de vidro */
+    border-top: 1px solid rgba(13, 110, 253, 0.4); 
+    /* Sombra suave azulada para dar profundidade e o brilho do vidro refletido */
+    box-shadow: 0 -4px 20px rgba(13, 110, 253, 0.08); 
+}
+
+/* Linha divisória interna sutil */
+.style-hr {
+    opacity: 0.15;
+}
+
+/* Comportamento dos links */
+.custom-footer .hover-link {
+    transition: color 0.2s ease-in-out;
+}
+
+.custom-footer .hover-link:hover {
+    color: #0d6efd !important; /* Destaca em azul ao passar o mouse */
+}
+
+/* Ajuste da imagem decorativa anterior */
+#img-nav {
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+}

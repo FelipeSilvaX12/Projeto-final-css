@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    background-color: #FAF9F9;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+#nav-principal {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: solid 0.5px rgb(234, 216, 255);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+#div-principal {
+    gap: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to bottom, #7f5dff, #ddd5fa);
+    border-radius: 10px;
+    min-height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    font-family: fantasy;
+    padding: 5px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 5px rgb(139, 46, 245);
+    font-size: xx-large;
+    margin-bottom: 30px;
+    color: rgb(19, 1, 1);
+    -webkit-text-stroke: 0.5px white;
+}
+
+.h2-principal {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#teclado {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    min-width: 200px;
+
+    /* Fundo de vidro translúcido */
+    background: rgba(255, 255, 255, 0.1);
+
+    /* Efeito de desfoque (o que cria a aparência de vidro) */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    /* Cantos arredondados */
+    border-radius: 20px;
+
+    /* Borda de cristal */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    /* Sombra suave para destacar o card flutuante */
+    box-shadow: 0 8px 32px 0 rgba(218, 221, 255, 0.37);
+
+    padding: 5px;
+    color: white;
+
+}
+
+#btn-primario {
+    width: 99px;
+
+
+}
+
+#btn-primario:hover {
+
+    transition: all 0.9s ease-in-out;
+    width: 110px;
+}
+
+
+#div-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 12px;
+    gap: 12px;
+}
+
+#img {
+
+    width: 100px;
+    aspect-ratio: 2;
+    border-radius: 10px;
+}
+
+#img:hover {
+    width: 110px
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    transition: all 5s ease-in-out;
+}
+
+#footer {
+    border-radius: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+
+    background: linear-gradient(to top, #7f5dff, #ddd5fa);
+
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    box-shadow: 0 8px 32px 0 rgba(218, 221, 255, 0.37);
+
+}
+
+#img-nav {
+    width: 70px;
+}

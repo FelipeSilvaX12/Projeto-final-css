@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    background-color: #FAF9F9;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+#nav-principal {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: solid 0.5px rgb(234, 216, 255);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+
+header {
+    display: flex;
+}
+
+h1 {
+    font-family: fantasy;
+    padding: 5px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 5px rgb(139, 46, 245);
+    font-size: xx-large;
+    margin-bottom: 30px;
+    color: rgb(19, 1, 1);
+    -webkit-text-stroke: 0.5px white;
+}
+
+#artigos {
+    gap: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to bottom, #7f5dff, #ddd5fa);
+    border-radius: 10px;
+    min-height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+
+
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+}
+
+tbody {
+    display: flex;
+    flex-direction: column;
+}
+
+#preco {
+    color: Red;
+    font-size: xx-large;
+}
+
+#img-nav {
+    width: 70px;
+    margin-top: 12px;
+}
+
+#carouselExampleFade {
+    max-width: 360px;
+}
+
+
+h3 {
+    size: 200px;
+}
+
+#teclado-gamer {
+    text-align: center;
+    font-size: xx-large;
+}
+
+article {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    margin-bottom: 12px;
+}
+
+li {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    gap: 50px;
+}

@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 550px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.img-banner {
+    width: 100%;
+    height: 100%;
+
+    /* PARA TRABALHAR */
+    /* Imagem de fundo */
+    background-image: url(../imagens/fundo.avif);
+    /* Responsividade */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Centralização do conteúdo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.form-cadastro h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+fieldset {
+    border: none;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+}
+
+legend {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #2c3e50;
+    outline: none;
+}
+
+.input-row {
+    display: flex;
+    gap: 15px;
+}
+
+.input-row .input-group {
+    flex: 1;
+}
+
+.termos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    font-size: 0.85rem;
+}
+
+.termos a {
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
+.btn-cadastrar {
+    width: 100%;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-cadastrar:hover {
+    background-color: #1a252f;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.login-link a {
+    color: #2c3e50;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+    .container {
+        padding: 25px;
+    }
+
+    .input-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}

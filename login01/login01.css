@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    /* Fundo semi-transparente com as cores originais levemente opacas */
+    background: linear-gradient(to bottom,
+            rgba(127, 93, 255, 0.25),
+            rgba(221, 213, 250, 0.4));
+    padding: 40px;
+    border-radius: 10px;
+
+    /* Sombra mais suave e espalhada para dar profundidade */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    width: 100%;
+    max-width: 400px;
+
+    /* O segredo do vidro: desfoca o que está atrás do container */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    /* Borda fina e clara para simular o reflexo do vidro */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+#img-banner {
+    width: 100%;
+    height: 100vh;
+
+    /* PARA TRABALHAR */
+    /* Imagem de fundo */
+    background-image: url(../imagens/fundo.avif);
+    /* Responsividade */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Centralização do conteúdo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.login-header h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login-header p {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 0.9em;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #ffffff;
+    outline: none;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 0.9em;
+}
+
+.form-actions a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-login {
+    width: 100%;
+    background-color: #0070f3;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #005bb5;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 0.9em;
+}
+
+.login-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
