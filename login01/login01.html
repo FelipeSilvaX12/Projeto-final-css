@@ -27,15 +27,15 @@
                 <p>Faça login para continuar suas compras</p>
             </div>
 
-            <form action="#" class="login-form">
+            <form action="#" class="login-form" onsubmit="fazerLogin(event)">
                 <div class="input-group">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" placeholder="seu-email@exemplo.com" required>
+                    <input type="email" id="email1" placeholder="seu-email@exemplo.com" required>
                 </div>
 
                 <div class="input-group">
                     <label for="password">Senha</label>
-                    <input type="password" id="password" placeholder="Digite sua senha" required>
+                    <input type="password" id="password1" placeholder="Digite sua senha" required>
                 </div>
 
                 <div class="form-actions">
@@ -44,7 +44,7 @@
                     </label>
                     <a href="../EsqueceuSenha01/EsqueceuSenha01.html" class="forgot-password">Esqueceu a senha?</a>
                 </div>
-                <a class="btn btn-primary" href="../index.html" role="button">Entrar</a>
+                <button type="submit" class="btn btn-primary">Entrar</button>
             </form>
 
             <div class="login-footer">
@@ -55,7 +55,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>]
+
+    <script src="./login.js"></script>
 </body>
 
 </html>

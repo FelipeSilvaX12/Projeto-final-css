@@ -109,9 +109,9 @@ h1 {
     position: relative;
     background-color: #ffffff;
     /* Borda ultra fina com degradê azul neon simetrizando o efeito de vidro */
-    border-top: 1px solid rgba(13, 110, 253, 0.4); 
+    border-top: 1px solid rgba(13, 110, 253, 0.4);
     /* Sombra suave azulada para dar profundidade e o brilho do vidro refletido */
-    box-shadow: 0 -4px 20px rgba(13, 110, 253, 0.08); 
+    box-shadow: 0 -4px 20px rgba(13, 110, 253, 0.08);
 }
 
 /* Linha divisória interna sutil */
@@ -125,7 +125,8 @@ h1 {
 }
 
 .custom-footer .hover-link:hover {
-    color: #0d6efd !important; /* Destaca em azul ao passar o mouse */
+    color: #0d6efd !important;
+    /* Destaca em azul ao passar o mouse */
 }
 
 /* Ajuste da imagem decorativa anterior */
@@ -152,14 +153,12 @@ h1 {
 
 #img {
 
-    width: 100px;
+    width: 150px;
     aspect-ratio: 2;
     border-radius: 10px;
 }
 
-#img:hover {
-    width: 110px
-}
+
 
 .card-title {
     display: flex;
@@ -188,4 +187,80 @@ h1 {
 
 #img-nav {
     width: 70px;
+}
+
+@media (min-width: 768px) {
+    #img {
+
+        width: 250px;
+        aspect-ratio: 2;
+        border-radius: 10px;
+    }
+
+    #teclado {
+        display: flex;
+        align-items: center;
+        width: 150px;
+        height: 250px;
+        min-width: 370px;
+
+        /* Fundo de vidro translúcido */
+        background: rgba(255, 255, 255, 0.1);
+
+        /* Efeito de desfoque (o que cria a aparência de vidro) */
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+
+        /* Cantos arredondados */
+        border-radius: 20px;
+
+        /* Borda de cristal */
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+        /* Sombra suave para destacar o card flutuante */
+        box-shadow: 0 8px 32px 0 rgba(218, 221, 255, 0.37);
+
+        padding: 5px;
+        color: white;
+
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    #img {
+
+        width: 250px;
+        aspect-ratio: 2;
+        border-radius: 10px;
+    }
+
+    #teclado {
+        display: flex;
+        align-items: center;
+        width: 150px;
+        height: 270px;
+        min-width: 370px;
+
+        /* Fundo de vidro translúcido */
+        background: rgba(255, 255, 255, 0.1);
+
+        /* Efeito de desfoque (o que cria a aparência de vidro) */
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+
+        /* Cantos arredondados */
+        border-radius: 20px;
+
+        /* Borda de cristal */
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+        /* Sombra suave para destacar o card flutuante */
+        box-shadow: 0 8px 32px 0 rgba(218, 221, 255, 0.37);
+
+        padding: 5px;
+        color: white;
+
+    }
 }
